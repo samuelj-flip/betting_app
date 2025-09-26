@@ -1,0 +1,25 @@
+/* Custom styles */
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2563eb; /* Tailwind blue-600 */
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/*.btn {
+  @apply px-4 py-2 rounded text-white font-semibold transition duration-300;
+}*/
